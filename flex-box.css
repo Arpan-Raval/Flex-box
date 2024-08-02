@@ -2,8 +2,9 @@
     width:auto;
     height:auto;
     border:2px solid black;
-    align-items: center;
     text-align: center;
+    justify-content: center;
+    
 }
 #box{
     width:100px;
@@ -15,24 +16,28 @@
 .row{
     display:flex;
     flex-direction:row;
-    width:auto;
+    width:500px;
     border:2px solid black;
+    justify-content: center;
 }
 .row-reverse{
     display:flex;
     flex-direction:row-reverse;
-    width:auto;
+    width:500px;
     border:2px solid black;
+    justify-content: center;
 }
 .column{
     display:flex;
     flex-direction:column;
-    width:auto;
+    width:500px;
     border:2px solid black;
+    justify-content: center;
 }
 .column-reverse{
     display:flex;
     flex-direction:column-reverse;
-    width:auto;
+    width:500px;
     border:2px solid black;
+    justify-content: center;
 }
