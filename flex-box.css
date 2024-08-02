@@ -1,11 +1,38 @@
+.flex-direction{
+    width:auto;
+    height:auto;
+    border:2px solid black;
+    align-items: center;
+    text-align: center;
+}
 #box{
     width:100px;
     height:100px;
     border:1px solid black;
     text-align:center;
+    margin:10px;
 }
-
 .row{
     display:flex;
     flex-direction:row;
+    width:auto;
+    border:2px solid black;
+}
+.row-reverse{
+    display:flex;
+    flex-direction:row-reverse;
+    width:auto;
+    border:2px solid black;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+    width:auto;
+    border:2px solid black;
+}
+.column-reverse{
+    display:flex;
+    flex-direction:column-reverse;
+    width:auto;
+    border:2px solid black;
 }
