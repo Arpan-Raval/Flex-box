@@ -1,9 +1,7 @@
-.flex-direction,.flex-wrap{
+.flex-direction,.flex-wrap,.justify-content,.align-items,.align-content{
     width:auto;
     height:auto;
     border:2px solid black;
-    text-align: center;
-    justify-items: center;
 }
 #box{
     width:100px;
@@ -17,42 +15,124 @@
     display:flex;
     flex-direction:row;
     border:2px solid black;
-    justify-content: center;
 }
 .row-reverse{
     display:flex;
     flex-direction:row-reverse;
     border:2px solid black;
-    justify-content: center;
 }
 .column{
     display:flex;
     flex-direction:column;
     border:2px solid black;
-    justify-content: center;
 }
 .column-reverse{
     display:flex;
     flex-direction:column-reverse;
     border:2px solid black;
-    justify-content: center;
 }
 
 .nowrap{
     display:flex;
     flex-wrap:nowrap;
     border:2px solid black;
-    justify-content: center;
 }
 .wrap{
     display:flex;
     flex-wrap:wrap;
     border:2px solid black;
-    justify-content: center;
 }
 .wrap-reverse{
     display:flex;
     flex-wrap:wrap-reverse;
     border:2px solid black;
-    justify-content: center;
 }
+.flex-start{
+    display:flex;
+    justify-content:flex-start;
+    border:2px solid black;
+}
+.flex-end{
+    display:flex;
+    justify-content:flex-end;
+    border:2px solid black;
+}
+.center{
+    display:flex;
+    justify-content:center;
+    border:2px solid black;
+}
+.space-between{
+    display:flex;
+    justify-content:space-between;
+    border:2px solid black;
+}
+.space-around{
+    display:flex;
+    justify-content:space-around;
+    border:2px solid black;
+}
+.space-evenly{
+    display:flex;
+    justify-content:space-evenly;
+    border:2px solid black;
+}
+
+.stretch{
+    display:flex;
+    align-items:stretch;
+    border:2px solid black;
+}
+.flex-start{
+    display:flex;
+    align-items:flex-start;
+    border:2px solid black;
+}
+.flex-end{
+    display:flex;
+    align-items:flex-end;
+    border:2px solid black;
+}
+.center{
+    display:flex;
+    align-items:center;
+    border:2px solid black;
+}
+.baseline{
+    display:flex;
+    align-items:baseline;
+    border:2px solid black;
+}
+
+
+.stretchh{
+    display:flex;
+    align-content:stretch;
+    border:2px solid black;
+}
+.flex-startt{
+    display:flex;
+    align-content:flex-start;
+    border:2px solid black;
+}
+.flex-endd{
+    display:flex;
+    align-content:flex-end;
+    border:2px solid black;
+}
+.centerr{
+    display:flex;
+    align-content:center;
+    border:2px solid black;
+}
+.space-betweenn{
+    display:flex;
+    align-content:space-between;
+    border:2px solid black;
+}
+.space-aroundd{
+    display:flex;
+    align-content:space-around;
+    border:2px solid black;
+}
+
