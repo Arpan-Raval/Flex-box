@@ -1,8 +1,9 @@
-.flex-direction{
+.flex-direction,.flex-wrap{
     width:auto;
     height:auto;
     border:2px solid black;
     text-align: center;
+    justify-items: center;
 }
 #box{
     width:100px;
@@ -10,32 +11,48 @@
     border:1px solid black;
     text-align:center;
     margin:10px;
+    background-color: aquamarine;
 }
 .row{
     display:flex;
     flex-direction:row;
-    width:500px;
     border:2px solid black;
     justify-content: center;
 }
 .row-reverse{
     display:flex;
     flex-direction:row-reverse;
-    width:500px;
     border:2px solid black;
     justify-content: center;
 }
 .column{
     display:flex;
     flex-direction:column;
-    width:500px;
     border:2px solid black;
     justify-content: center;
 }
 .column-reverse{
     display:flex;
     flex-direction:column-reverse;
-    width:500px;
+    border:2px solid black;
+    justify-content: center;
+}
+
+.nowrap{
+    display:flex;
+    flex-wrap:nowrap;
+    border:2px solid black;
+    justify-content: center;
+}
+.wrap{
+    display:flex;
+    flex-wrap:wrap;
+    border:2px solid black;
+    justify-content: center;
+}
+.wrap-reverse{
+    display:flex;
+    flex-wrap:wrap-reverse;
     border:2px solid black;
     justify-content: center;
 }
